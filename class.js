@@ -13,6 +13,9 @@ video.addEventListener("pause",function(){
     console.log("pause");
 });
 
-video.addEventListener("play",function(){
+video.addEventListener("ended",function(){
     console.log("Thanks for watching");
+});
+video.addEventListener("Volumechange",function(){
+    console.log("volumechange");
 });
